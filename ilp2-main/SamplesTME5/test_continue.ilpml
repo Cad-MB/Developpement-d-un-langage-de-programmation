@@ -1,0 +1,11 @@
+let x = 0 in
+(
+	while x < 10 do( 
+		if x==5 then(
+			x=x+1
+			continue
+		)
+		else x=x+1
+		print(x)
+	)
+)

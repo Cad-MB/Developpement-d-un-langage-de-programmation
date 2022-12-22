@@ -1,0 +1,1 @@
+let tab = makeVector(3, true) in vectorGet(tab, 0)

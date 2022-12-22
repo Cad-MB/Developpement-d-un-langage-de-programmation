@@ -1,0 +1,11 @@
+let i = 0 in (
+	let j = 0 in (
+		b1: while i < 10 do (
+			i = i+1
+			j = j+1
+			if i >= 2 then continue b1
+			j = j+10
+		)
+		j
+	)
+)

@@ -1,0 +1,1 @@
+let tab = makeVector(10, 5) in vectorLength(tab)

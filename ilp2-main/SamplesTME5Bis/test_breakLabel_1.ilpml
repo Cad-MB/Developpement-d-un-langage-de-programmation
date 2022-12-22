@@ -1,0 +1,12 @@
+let i = 0 in (
+	let j = 0 in (
+		b1: while i <= 10 do (
+			b2: while j <= 10 do (
+				if j == 5 then break b1
+				i = i+1
+				j = j+1
+			)
+		)
+	)
+i+1	
+)

@@ -1,0 +1,6 @@
+Nombre d'appels de methodes: 1200002 | Nombre de cache hits: 800000
+Nombre d'appels de methodes: 1200002 | Nombre de cache hits: 0
+Nombre d'appels de methodes: 200001 | Nombre de cache hits: 200000
+Nombre d'appels de methodes: 1200002 | Nombre de cache hits: 800000
+Nombre d'appels de methodes: 1200002 | Nombre de cache hits: 0
+Nombre d'appels de methodes: 200001 | Nombre de cache hits: 200000

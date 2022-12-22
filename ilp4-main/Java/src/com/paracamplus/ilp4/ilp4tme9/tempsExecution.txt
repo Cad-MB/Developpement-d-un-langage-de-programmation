@@ -1,0 +1,2 @@
+Test de SamplesTME9 avec CompilerTestSansCache => 6,903 sec
+Test de SamplesTME9 avec CompilerTestCache =>  5,364 sec

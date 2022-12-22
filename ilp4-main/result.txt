@@ -1,0 +1,1 @@
+Nb. d'appels de methodes: 1 | Nb. cache hit: 0

@@ -1,0 +1,4 @@
+function f(x) ( x + z );
+z = 2;
+let z = 12 in
+    f(z)

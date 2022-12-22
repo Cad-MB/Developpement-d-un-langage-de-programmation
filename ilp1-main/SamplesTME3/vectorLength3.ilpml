@@ -1,0 +1,1 @@
+let tab = makeVector(100, "nu") in vectorLength(tab)

@@ -1,0 +1,13 @@
+let x = 0 in 
+(
+	(
+    	while x < 30 do
+        	if x == 15 then 
+        	(
+        		x = 100;
+        		continue
+        	)
+        	else x = x + 1
+    );
+    print(x)
+)

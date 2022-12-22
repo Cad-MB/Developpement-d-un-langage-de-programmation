@@ -1,0 +1,14 @@
+Quelles opérations sont effectuées par ILP_find_method?
+	-  Verification que la methode est bien dans la classe
+	-  Verification de l'arté de la méthode
+	-  Trouve la methode correspondante de la classe a l'aide le l'index et l'appelle sur l'objet
+
+Pourquoi ces opérations sont-elles indispensables ?
+	-  Pour vérifier que la méthode appartient a la (bonne) classe, qu'elle a bien le bon nombre de parametres et donc 
+	   qu'il s'agit bien de la bonne méthode.
+
+Quel est leur coût ?
+	- Partie statique +  partie dynamique
+	
+Quels types de programmes risquent de produire un coût prohibitif ?
+	-  Méthodes qui peuvent ont plusieurs versions.

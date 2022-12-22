@@ -1,0 +1,12 @@
+let x = 0 in (
+	while x < 2 do (
+		if x > 0 then (
+			x=x+1
+			continue
+		)
+		else (
+			print(x)
+			x=x+1
+		)
+	)
+) 

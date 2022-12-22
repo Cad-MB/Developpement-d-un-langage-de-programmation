@@ -1,0 +1,30 @@
+class Point extends Object
+{
+    var x;
+    method m1 (tt)
+    self.x+tt;
+}
+
+class Point2Da extends Point
+{
+    var y;
+    method m1 (ttt)
+    self.y + super;
+}
+
+class Point3Da extends Point2Da
+{
+    var z;
+
+    method m1 (tt)
+    self.z + super;
+}
+
+let pc4 = new Point3Da(1, 2, 3) and i = 0 in (
+	while (i<200000) do (
+		pc4.m1(10)
+		i = i+1
+	)
+pc4.m1(10)
+)
+
